@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Gaze Lab",
+    "slug": "gaze-lab",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "gazelab",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.denizirban.gazelab"
+    },
+    "android": {
+      "package": "com.denizirban.gazelab"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Gaze Lab uses the camera to capture eye images for experimental visual measurements.",
+          "recordAudioAndroid": false
+        }
+      ]
+    ]
+  }
+}
